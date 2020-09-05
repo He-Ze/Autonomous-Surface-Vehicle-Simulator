@@ -1,0 +1,27 @@
+1@map = Map name
+
+#Can add more modelsets after, with a comma separating them
+
+1@modelset = res/config/Modelset.cfn
+
+0@objects = 1, 1, 0, 2
+
+4@coordinates = 0, 0, 5,
+5, 0, 0,
+-5, 0, 0,
+0, 5, 0
+
+4@rotations = 60, 0, 0,
+0, 0, 1.570796327,
+0, 5, 0,
+0, 0, 0
+
+4@scales = 1, 1, 1,
+1, 1, 1,
+1, 1, 1,
+1.5, 1.5, 1.5
+
+#Needs more stuff but include light coordinates, strength, etc.
+4@lightCoordinates = 0, 0, 0
+
+#Add starting camera position

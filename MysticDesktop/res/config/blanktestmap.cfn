@@ -1,0 +1,24 @@
+# Maps should link together seemlessly (in the same horizontal frame)
+# Tiles positions should be calculated with a global player movement variable
+# then re-rendered as one, not on a per tile basis
+
+1@map = Map name, res/config/tileTest.cfn
+0@map = 5, 3
+
+# Horizontal size of the map should be stored before tiles
+# Tile IDs after - 0 is a blank space
+
+# Background layer is for floors, no collisions are calculated 
+0@background = 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0,
+0, 0, 0, 0, 0
+
+# The object collision layer, objects are rendered over the background
+0@ground = 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0,
+0, 0, 0, 0, 0
+
+# Foreground layer is also non-collision, objects are rendered over the player
+0@foreground = 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0,
+0, 0, 0, 0, 0

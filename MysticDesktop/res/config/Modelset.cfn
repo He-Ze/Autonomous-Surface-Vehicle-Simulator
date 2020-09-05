@@ -1,0 +1,4 @@
+1@Cube = res/models/cube.ent, res/test_images/numbered_cube.png
+1@Suzanne = res/models/suzanne.ent, res/test_images/Asdf.png
+1@Monkey = res/models/monkey.ent, res/test_images/Asdf.png
+1@Quad = res/models/quad.ent, res/test_images/Sprite_0001.png
