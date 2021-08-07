@@ -1,0 +1,34 @@
+This file describes the porting status of various parts of JBullet.
+
+Base code is based on Bullet 2.72.
+
+List of exceptions:
+
+2.74:
+- CCD motion clamping fix
+
+2.70:
+- demos
+- AxisSweep3
+- DBVT
+- SimpleBroadphase
+- CompoundCollisionAlgorithm
+- CompoundShape
+- ConvexShape
+- BvhTriangleMeshShape
+- StridingMeshInterface
+- TriangleIndexVertexArray
+- TriangleMesh
+- TriangleMeshShape
+- GjkPairDetector (non-virtual methods)
+- MinkowskiPenetrationDepthSolver (non-virtual methods)
+- HingeConstraint (probably newer patch applied)
+
+2.70-beta1:
+- graphics part of DemoApplication
+
+2.66:
+- OptimizedBVH
+
+KinematicCharacterController:
+- jump/gravity patch

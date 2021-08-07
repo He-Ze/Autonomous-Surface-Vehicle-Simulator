@@ -1,0 +1,3 @@
+#!/bin/sh
+
+nm -j -g "$1"/*.o | grep -E "J(ava|NI)_[^.]*$"

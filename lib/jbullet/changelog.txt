@@ -1,0 +1,108 @@
+Release 20101010:
+- Added KinematicCharacterController, GhostObject and CharacterDemo
+- Added DbvtBroadphase
+- Added serialization of BVH
+- Updated most classes to match Bullet 2.72
+- Added CCD motion clamping fix from Bullet 2.74
+- Removed usage of interface calls
+- Added stackless traversal in OptimizedBvh
+- Added jumping/gravity to KinematicCharacterController (contributed by Normen Hansen)
+
+Release 20090628:
+- Added conversion methods between Transform and Matrix4f
+- Fixed bug in ShapeHull
+- Added CollisionWorld.updateSingleAabb method from Bullet 2.74
+- Added CollisionWorld.convexSweepTest
+- Added ConcaveConvexcastDemo
+
+Release 20090404:
+- Added ConeShape
+- Fixed thread safety issues when running distinct simulations in different threads simultaneously
+- Changed back to building of just one library JAR
+- Added run configuration for each demo in NetBeans project
+- Fixed compilation with JDK 1.5
+- Added fix for collision detection bug from Bullet 2.70
+- Generalized mesh access interface
+- Added ScaledBvhTriangleMeshShape
+- Added calculatePrincipalAxisTransform method in CompoundShape
+
+Release 20080917:
+- Documented many classes and adjusted existing descriptions
+- Minor API changes
+- Changed method names for callbacks to be more descriptive
+- Improved BulletGlobals
+- Added SliderConstraint
+- Added ForkLiftDemo
+
+Release 20080803:
+- Upgraded LWJGL to 2.0rc1
+- Added UniformScalingShape
+- Improved JavaDoc generation
+- Removed dependency on JStackAlloc in demos
+- Added support for moving triangle meshes
+- Added MovingConcaveDemo
+- Optimized allocation of collision algorithms
+
+Release 20080716:
+- Fixed bug in conversion between planes and point cloud
+- Added DynamicControlDemo (contributed by Olivier OUDIN)
+- Changed package from "javabullet" to "com.bulletphysics"
+- Bug fix for constructor with pivots and axis in HingeConstraint (contributed by Olivier OUDIN)
+- Converted to use JStackAlloc
+- Converted to use output parameter when returning vectors, etc.
+- Updated existing code to match Bullet 2.70-beta1
+- Added ShapeHull
+- Ported original version of HashedOverlappingPairCache
+- Removed optional dependency on GNU Trove 
+- Added AxisSweep3
+- Added profiling support
+- Changed to make single thread build by default
+- Changed to use nanoTime
+- Added HelloWorld demo (contributed by Clark Dorman)
+
+Release 20080311:
+- Added some JavaDoc documentation
+- Added RaycastVehicle and VehicleDemo
+- Refactored accessing of vertex data
+- Added CylinderShape
+- Implemented ray/trimesh hit detection
+- Added applet demo
+- Added binaries and dependant libraries into package
+
+Release 20080303:
+- Refactored enums
+- Fixed bug that caused occasional jitter
+- Added ConvexConcaveCollisionAlgorithm
+- Memory optimalizations
+- Implemented quantized BVH nodes
+- Made ConcaveDemo working
+
+Release 20080206:
+- Memory optimalizations
+- Added heap info
+- Implemented HeapSort
+- Added optional support for GNU Trove
+- Added BspDemo and fixed ConvexHullShape
+- Added ConcaveDemo and it's supporting classes
+- Abstracted OpenGL rendering
+
+Release 20080122:
+- Fixed convex/plane collision detection
+- Added GLDebugDrawer and fixed some bugs
+- Added CapsuleShape
+- Added ConeTwistConstraint, HingeConstraint and Generic6DofConstraint
+- Added GenericJointDemo
+- Optimized drawing of spheres and cylinders using display lists
+- Fixed collision of boxes
+- Added text overlay
+
+Release 20080116:
+- Moved all push/popProfile to try/finally blocks
+- Added final for Vectors/Transforms/etc fields where applicable, and fixed some discovered bugs
+- Fixed bug with non-functional removeOverlappingPair
+- Enabled ground BoxShape in BasicDemo
+- Implemented drawing of BoxShape
+- Fixed VectorUtil.maxAxis
+
+Release 20080111:
+- Initial release based on Bullet 2.66

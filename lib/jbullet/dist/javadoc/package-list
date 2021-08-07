@@ -1,0 +1,13 @@
+com.bulletphysics
+com.bulletphysics.collision.broadphase
+com.bulletphysics.collision.dispatch
+com.bulletphysics.collision.narrowphase
+com.bulletphysics.collision.shapes
+com.bulletphysics.dynamics
+com.bulletphysics.dynamics.character
+com.bulletphysics.dynamics.constraintsolver
+com.bulletphysics.dynamics.vehicle
+com.bulletphysics.extras.gimpact
+com.bulletphysics.linearmath
+com.bulletphysics.linearmath.convexhull
+com.bulletphysics.util
